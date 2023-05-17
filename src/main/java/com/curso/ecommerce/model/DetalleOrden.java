@@ -7,6 +7,7 @@ public class DetalleOrden {
 	private double cantidad;
 	private double precio;
 	private double total;
+	private double total1;
 	
 	public DetalleOrden() {
 		// TODO Auto-generated constructor stub
@@ -19,6 +20,7 @@ public class DetalleOrden {
 		this.cantidad = cantidad;
 		this.precio = precio;
 		this.total = total;
+		
 	}
 
 	public Integer getId() {
